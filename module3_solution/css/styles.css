@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-default {
+  background-color: #8080FF;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-collapse ul {
+  background-color: #E6E9F3;
+}
+
+.navbar-collapse ul li {
+  border: 1px solid black;
+  color: #FFFFFF;
+  padding-left: 5px;
+}
+
+.section {
+  position: relative;
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#chicken {
+  background-color: #FFFF8C;
+}
+
+#beef {
+  background-color: #FFBBFF;
+}
+
+#sushi {
+  background-color: #A6FFA6;
+}
